@@ -128,7 +128,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #e1c065 !important;
 			text-decoration: none;
 		}
 
@@ -2604,7 +2604,8 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-color: #c39e57;
+		/*background-image: url("images/overlay.png"), url("/images/fulls/med1.png");*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2691,7 +2692,13 @@ input, select, textarea {
 			}
 
 /* Main */
-
+	.project-title{
+		font-size: 18px !important;
+		font-weight: bold;
+	}
+	.project-descriptions{
+		font-size: 16px !important;
+	}
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
@@ -2994,9 +3001,19 @@ input, select, textarea {
 	@media screen and (max-width: 1800px) {
 
 		/* Basic */
+		#header {
+			padding: 6em 3em 3em 3em;
+			width: 25%;
+		}
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+			#main {
+				margin-left: 25%;
+				max-width: none;
+				padding: 6em 3em 3em 3em;
+				width: calc(100% - 30%);
 			}
 
 	}
@@ -3009,7 +3026,13 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 27%;
+			}
+			#main {
+				margin-left: 27%;
+				max-width: none;
+				padding: 6em 3em 3em 3em;
+				width: calc(100% - 30%);
 			}
 
 				#header h1 {
@@ -3037,7 +3060,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 30%;
+				margin-left: 27%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
