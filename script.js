@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
        
         {
             name: "Music Web Application",
-            description: "Developed a Java and Servlet-based web application with a primary focus on software architecture and design patterns. Enabled features such as music streaming, playlist creation, and artist following with a focus on optimal system design.",
+            description: "Melosphere - Developed a Java and Servlet-based web application with a primary focus on software architecture and design patterns. Enabled features such as music streaming, playlist creation, and artist following with a focus on optimal system design.",
             frameworks: ["Java", "Servlets", "Design Patterns"],
-            githubLink: "https://github.com/yourusername/MusicWebApplication",
+            githubLink: "https://github.com/NifraWahaj/Melosphere",
         },
        
         {
