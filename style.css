@@ -1,22 +1,22 @@
-/* General Styles */
+/* General  */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
-    color: #f7efd2; /* #f7efd2 */
-    background-color: #475c6c; /* #475c6c */
+    color: #f7efd2; 
+    background-color: #475c6c;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-/* Header Styles */
+/* Header  */
 header {
-    background: #475c6c; /* #475c6c */
-    color: #f7efd2; /* #f7efd2 */
+    background: #475c6c;
+    color: #f7efd2; 
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -37,7 +37,7 @@ header nav {
 header nav .logo {
     font-size: 1.5rem;
     font-family: 'Lora', serif;
-    color: #eed7a1; /* #eed7a1 */
+    color: #eed7a1; 
 }
 
 header nav ul {
@@ -52,7 +52,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #f7efd2; /* #f7efd2 */
+    color: #f7efd2; 
     text-decoration: none;
     font-weight: bold;
     font-family: 'Lora', serif;
@@ -60,13 +60,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #cd8b62; /* #cd8b62 */
+    color: #cd8b62; 
 }
 
-/* Hero Section Styles */
+/* Hero Section  */
 #hero {
-    background: #475c6c; /* #475c6c */
-    color: #f7efd2; /* #f7efd2 */
+    background: #475c6c; 
+    color: #f7efd2; 
     text-align: center;
     padding: 150px 20px;
     margin-top: 60px;
@@ -81,7 +81,7 @@ header nav ul li a:hover {
     font-size: 3rem;
     margin-bottom: 20px;
     font-family: 'Lora', serif;
-    color: #eed7a1; /* #eed7a1 */
+    color: #eed7a1; 
 }
 
 .hero-content p {
@@ -91,8 +91,8 @@ header nav ul li a:hover {
 
 .hero-content .btn {
     display: inline-block;
-    background: #cd8b62; /* #cd8b62 */
-    color: #475c6c; /* #475c6c */
+    background: #cd8b62; 
+    color: #475c6c; 
     padding: 10px 20px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -101,10 +101,10 @@ header nav ul li a:hover {
 }
 
 .hero-content .btn:hover {
-    background: #eed7a1; /* #eed7a1 */
+    background: #eed7a1; 
 }
 
-/* Section Styles */
+/* Section */
 section {
     padding: 60px 20px;
 }
@@ -114,12 +114,12 @@ section h2 {
     margin-bottom: 40px;
     font-size: 2rem;
     font-family: 'Lora', serif;
-    color: #eed7a1; /* #eed7a1 */
+    color: #eed7a1;
 }
 
-/* About Section Styles */
+/* About Section  */
 #about {
-    background: #476C6A; /* #8a8583 */
+    background: #476C6A; 
     text-align: center;
     padding: 80px 20px;
 }
@@ -128,7 +128,7 @@ section h2 {
     max-width: 800px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    color: #f7efd2; /* #f7efd2 */
+    color: #f7efd2; 
 }
 
 .skills {
@@ -166,10 +166,10 @@ section h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Projects Section Styles */
+/* Projects Section */
 #projects {
     text-align: center;
-    background: #475c6c; /* #475c6c */
+    background: #475c6c;
     padding: 80px 20px;
 }
 
@@ -181,17 +181,17 @@ section h2 {
 }
 
 .project-card {
-    background: #476C6A; /* Adjusted shade */
-    border: 1px solid #475c6c; /* #475c6c */
+    background: #476C6A; 
+    border: 1px solid #475c6c; 
     padding: 20px;
     width: 300px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden; 
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    text-align: left; /* Ensure text alignment */
-    color: #f7efd2; /* Adjust text color for readability */
+    text-align: left; 
+    color: #f7efd2; 
 }
 
 .project-card:hover {
@@ -203,7 +203,7 @@ section h2 {
     margin: 0;
     font-size: 1.5rem;
     font-family: 'Lora', serif;
-    color: #eed7a1; /* #eed7a1 */
+    color: #eed7a1; 
 }
 
 .project-card p {
@@ -227,34 +227,34 @@ section h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* GitHub Link Styles */
+/* Link  */
 .github-link {
     display: block;
     margin: 10px 0;
-    color: #cd8b62; /* #cd8b62 */
+    color: #cd8b62; 
     text-decoration: none;
     font-weight: bold;
-    text-align: left; /* Align the link to the right */
+    text-align: left; 
 }
 
 .github-link:hover {
     text-decoration: underline;
 }
 
-/* Contact Section Styles */
+/* Contact Section  */
 #contact {
-    background: #476C6A; /* #8a8583 */
+    background: #476C6A; 
     text-align: center;
-    padding: 40px 20px; /* Reduce padding */
+    padding: 40px 20px; 
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the start (left) */
+    align-items: flex-start;
     max-width: 600px;
     margin: 0 auto;
-    gap: 10px; /* Reduce gap between items */
+    gap: 10px; 
 }
 
 .contact-item {
@@ -264,13 +264,13 @@ section h2 {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #cd8b62; /* #cd8b62 */
-    margin-right: 50px; /* Space between icon and text */
+    color: #cd8b62; 
+    margin-right: 50px; 
 }
 
 .contact-item a,
 .contact-item span {
-    color: #f7efd2; /* #f7efd2 */
+    color: #f7efd2; 
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
@@ -278,13 +278,13 @@ section h2 {
 
 .contact-item a:hover,
 .contact-item span:hover {
-    color: #cd8b62; /* #cd8b62 */
+    color: #cd8b62;
 }
 
-/* Footer Styles */
+/* Footer */
 footer {
-    background: #475c6c; /* #475c6c */
-    color: #f7efd2; /* #f7efd2 */
+    background: #475c6c;
+    color: #f7efd2;
     text-align: center;
     padding: 10px 0;
 }
@@ -293,4 +293,3 @@ footer p {
     margin: 0;
     font-size: 0.75rem;
 }
-
