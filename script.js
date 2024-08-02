@@ -37,12 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
             description: "Conducted exploratory testing on an existing Spring Boot project. Designed fault-discovery test cases, implemented efficient JUnit tests, and seamlessly integrated continuous testing using GitHub Actions.",
             frameworks: ["Spring Boot", "JUnit", "GitHub Actions", "Selenium"],
             githubLink: "https://github.com/NifraWahaj/E-commerce-project-springBoot",
-        },
-        {
-            name: "Software Requirements Specification",
-            description: "Navigate Fast — Guided by industry standards, the Software Requirements Specification (SRS) outlines the requirements for a mobile application aimed at elevating the campus life experience for FAST students. The document delves into system features, nonfunctional requirements, and employs visual aids such as Context Diagrams, Figma mockup designs, and use case diagrams.",
-            frameworks: ["SRS", "Figma"],
-            githubLink: "https://drive.google.com/file/d/1g910inFmtqilSoGlTiQqVa5VkSTufzyP/view?usp=sharing",
         }
     ];
 
